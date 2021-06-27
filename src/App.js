@@ -1,11 +1,11 @@
-import Home from './Components/Home';
+import Home from './components/Home';
 import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
 	return (
 		<div className='App'>
 			{/* ADD NAVBAR WHEN ITS DONE !!! */}
 			<Router>
-			<Home />
+				<Home />
 			</Router>
 		</div>
 	);
